@@ -1,5 +1,5 @@
 <h2>Katmanlı Mimari ile E-Ticaret Projesi</h2>
-
+<h4>Şu anda yapım aşamasında</h4>
 <p>Her hangi bir hazır e-ticaret uygulaması kullanılmamıştır.</p>
 
 <h4>Projede öne çıkan detaylar;</h4>
