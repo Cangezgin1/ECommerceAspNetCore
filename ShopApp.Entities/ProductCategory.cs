@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ShopApp.Entities
 {
-    public class Category
+    public class ProductCategory // Çoka çok tablo için
     {
         public int CategoryId { get; set; }
-        public string Name { get; set; }
+        public Category Category { get; set; }
 
-        public List<ProductCategory> ProductCategories { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
     }
 }
