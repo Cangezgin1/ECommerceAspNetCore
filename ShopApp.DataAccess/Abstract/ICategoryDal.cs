@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DataAccess.Abstract
 {
-    public interface IProductDal:IRepository<Product>
+    public interface ICategoryDal:IRepository<Category>
     {
-        IEnumerable<Product> GetPopularProducts();
     }
 }
