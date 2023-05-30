@@ -20,7 +20,7 @@ namespace ShopApp.Business.Concrete
 
         public void Create(Category entity)
         {
-            _categoryDal.Create(entity);
+            _categoryDal.Create(entity); 
         }
 
         public void Delete(Category entity)
