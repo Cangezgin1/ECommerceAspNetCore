@@ -11,7 +11,7 @@ namespace ShopApp.Business.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        private ICategoryDal _categoryDal;
+        private ICategoryDal _categoryDal;  // Ef kullanmamamızın sebebi bağımlı kalmamamız... Yarın öbür gün mySql ya da Oracle a geçtiğimizde çok kolay olur.
 
         public CategoryManager(ICategoryDal categoryDal)
         {
