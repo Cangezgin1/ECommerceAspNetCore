@@ -22,7 +22,7 @@ namespace ShopApp.Business.Concrete
         public void Create(Product entity)
         {
             _productDal.Create(entity);
-        }
+        } 
 
         public void Delete(Product entity)
         {
